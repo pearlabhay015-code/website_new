@@ -141,6 +141,9 @@ nav.sc{background:rgba(235,247,255,.96);box-shadow:0 6px 32px rgba(13,146,216,.1
 .mob-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(255,107,149,.38)}
 
 /* BUTTONS */
+.btn-ghost-cs{background:rgba(255,255,255,.65);backdrop-filter:blur(16px);border:1.5px solid rgba(79,70,229,.28);color:var(--cs)}
+.btn-ghost-cs:hover{background:rgba(235,240,255,.88);box-shadow:0 6px 20px rgba(79,70,229,.14)}
+[data-theme="dark"] .btn-ghost-cs{background:rgba(14,12,44,.70);border-color:rgba(129,140,248,.35);color:var(--cs)}
 .btn{position:relative;display:inline-flex;align-items:center;gap:7px;padding:12px 26px;border-radius:var(--r-xl);font-family:var(--fb);font-size:.85rem;font-weight:600;cursor:pointer;border:none;outline:none;text-decoration:none;overflow:hidden;transition:transform .2s cubic-bezier(.34,1.56,.64,1),box-shadow .2s}
 .btn::before{content:'';position:absolute;left:0;top:0;right:0;height:50%;border-radius:var(--r-xl) var(--r-xl) 0 0;background:linear-gradient(180deg,rgba(255,255,255,.30),transparent);pointer-events:none}
 .btn:hover{transform:translateY(-2px) scale(1.02)}.btn:active{transform:scale(.97)}
@@ -618,8 +621,9 @@ footer{background:linear-gradient(180deg,var(--dark-bg),var(--lav-lt));border-to
   <div class="hostel-badges">
     <span class="h-badge girls">Girls Hostel — Gargi Sadan &amp; Maitreyi Sadan</span>
     <span class="h-badge boys">Boys Hostel — Block A &amp; B</span>
+    <a href="#wardens-sec" class="btn btn-ghost-cs">Meet the Wardens</a>
   </div>
-  <a href="v1.html" class="page-hero-back">← Back to Home</a>
+  <a href="index.html" class="page-hero-back">← Back to Home</a>
 </header>
 
 <!-- HOSTEL SECTION -->
