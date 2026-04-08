@@ -403,6 +403,7 @@ nav.sc{background:rgba(235,247,255,.96);box-shadow:0 6px 32px rgba(13,146,216,.1
 [data-theme="dark"] .card-light{background:rgba(8,18,28,.80);border-color:rgba(78,201,168,.20);box-shadow:0 2px 16px rgba(0,0,0,.50)}
 [data-theme="dark"] .card-light:hover{background:rgba(10,24,36,.92);border-color:rgba(78,201,168,.50);box-shadow:0 8px 28px rgba(0,0,0,.55),var(--glow-mint)}
 
+
 /* ═══════════════════════════════════════════
    HERO
 ═══════════════════════════════════════════ */
@@ -425,12 +426,31 @@ nav.sc{background:rgba(235,247,255,.96);box-shadow:0 6px 32px rgba(13,146,216,.1
     linear-gradient(160deg,#050812 0%,#080D1A 100%);
 }
 
+/* credits */
+.credit1{
+  position: absolute;
+  width: 140px;
+  right: 20px;
+  top: 20px;   /* adjust if needed */
+  display: flex;
+}
+.credit2{
+  position: absolute;
+  width: 140px;
+  right: 20px;
+  top: 20px;   /* adjust if needed */
+  display: flex;
+  margin-right: 120px;
+}
+
+
 .hero-eyebrow{
   display:inline-flex;align-items:center;gap:8px;
   background:rgba(255,255,255,.68);border:1.5px solid rgba(13,146,216,.18);
   backdrop-filter:blur(12px);border-radius:40px;
   padding:5px 16px 5px 10px;font-size:.72rem;color:var(--td60);
   margin-bottom:26px;animation:fadeUp .7s .2s both;
+  margin-top: 42px;
   box-shadow:0 2px 12px rgba(13,146,216,.10);
 }
 [data-theme="dark"] .hero-eyebrow{background:rgba(12,20,44,.75);border-color:rgba(90,160,232,.28);box-shadow:0 2px 12px rgba(0,0,0,.40),0 0 18px rgba(90,160,232,.12)}
@@ -1121,6 +1141,8 @@ footer{
 
 <!-- ══════ HERO ══════ -->
 <header id="hero">
+  <img class="credit1" src="NAAC.png" alt="A++">
+  <img class="credit2" src="viksit.png" alt="viksit bharat">
   <div>
     <div class="hero-eyebrow"><span class="live-dot"></span>Admissions Open — 2026–27</div>
     <h1 class="hero-title">Central University<br>of <span class="acc">South Bihar</span></h1>
@@ -1165,7 +1187,7 @@ footer{
       <div style="margin-top:24px" class="rev"><a href="history.html" class="btn btn-light btn-sm">Our History →</a></div>
     </div>
     <div class="about-img-slot rev">
-      <img src="aryabhatta.jpeg" alt="CUSB Building" onerror="this.style.display='none'">
+      <img src="admin.jpeg" alt="CUSB Building" onerror="this.style.display='none'">
     </div>
   </div>
 </section>
